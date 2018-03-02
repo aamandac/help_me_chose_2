@@ -1,0 +1,80 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+
+}
+
+h1 {
+  background-color: #8E1D41;
+  width: 100%;
+  font-family: "Courier New", Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+    text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  background-color: #A40A3C;
+  width: 100%;
+  font-family: "Courier New", Times, serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  margin-bottom: -5px;
+  margin-top: 5px;
+    text-align: center;
+
+}
+
+input {
+font-family: "Courier New", Times, serif;
+}
+
+button {
+background-color: lightpink;
+opacity: 0.7;
+border: none;
+font-family: "Courier New", Times, serif;
+font-size: 13px;
+padding: 10px 20px;
+
+}
+
+.inputSection {
+margin: 50px 0px 80px 0px;
+width: 400px;
+}
+
+.inputs {
+width: inherit;
+display: flex;
+flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+margin-top: 10px;
+}
+
+.go {
+margin-top: 10px;
+}
+
+.resultSection {
+  height: 300px;
+  font-family: "Courier New", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+
+}

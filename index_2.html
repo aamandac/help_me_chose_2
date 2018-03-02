@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title> Help me choose </title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link href="./main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <img src="https://i.pinimg.com/originals/af/01/8b/af018b26a71adac799c41627676c4e97.jpg" alt="Mountain" height="300" width="300">
+  <h1>Help me choose..</h1> <!-- h1 : huvudrubrik-->
+    <h2>... my next travel destination </h2>
+  <div class="inputSection">                             <!-- block som inte syns, talar om vad som ska grupperas ihop på sidan. I den lägger vi hela blocket -->
+    <div class="inputs">                           <!-- första inputfältet -->
+      <input placeholder="var i världen"></input> <!-- vi tilldelar ett attribut. Här: "placeholder. Talar om vad det ska stå i fältet när det är tomt."  -->
+    </div>
+    <button class="addOption">Add</button> <!-- knapp där jag kan lägga till fler inputs -->
+  </div>
+  <div class="resultSection"></div>
+  <button class="submit">Go!</button> <!-- knapp efter hela frågeslingan. talar om att vi är klara. -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> <!-- i script-tagen lägger vi in javascript. scr talar om källan som vi vill hämta scriptet från.-->
+<script>
+$(function() {
+  $('.resultSection').hide()
+  var add_option = function() {
+    $('.inputs').append('<input></input>')
+  }
+  $('.addOption').click(add_option)
+
+  var options = []
+  var submit = function() {
+    $('.inputSection').hide()
+    $('.resultSection').css('display', 'flex')
+    $('input').each(function() {
+      options.push($(this).val())
+    })
+    var winner = options[Math.floor(Math.random() * options.length)]
+    console.log(winner)
+    $('.resultSection').text(winner)
+  }
+  $('.submit').click(submit)
+})
+</script>
+</body>
+</html>
