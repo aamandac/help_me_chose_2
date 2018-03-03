@@ -23,9 +23,11 @@
 <script>
 
 $(function() {
+  
        $('.resultSection').hide()
        var add_option = function() {
          $('.inputs').append('<input></input>')
+
        }
        $('.addOption').click(add_option)
        var options = []
@@ -40,6 +42,8 @@ $(function() {
          $('.resultSection').text(winner)
        }
        $('.submit').click(submit)
+         }
+       });
      })
    </script>
  </body>
