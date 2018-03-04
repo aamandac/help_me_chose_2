@@ -4,8 +4,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 150px;
-background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
 
+background-color: #C14545;
 }
 
 h1 {

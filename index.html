@@ -23,12 +23,23 @@
 <script>
 
 $(function() {
-  
        $('.resultSection').hide()
        var add_option = function() {
          $('.inputs').append('<input></input>')
-
        }
+
+       var add_option = function() {
+           $('.inputs').append('<input></input>')
+        $("input:text:visible:last").focus()
+         }
+         $('.addOption').click(add_option)
+     $('.inputSection').keydown(function(e)    {
+                    if (e.keyCode == 13)    {
+                        add_option()
+                    }
+                })
+
+
        $('.addOption').click(add_option)
        var options = []
        var submit = function() {
@@ -42,8 +53,6 @@ $(function() {
          $('.resultSection').text(winner)
        }
        $('.submit').click(submit)
-         }
-       });
      })
    </script>
  </body>
