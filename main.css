@@ -5,11 +5,11 @@ justify-content: center;
 align-items: center;
 margin-top: 150px;
 
-background-color: #C14545;
+background-color: #1A3C40;
 }
 
 h1 {
-  background-color: #8E1D41;
+  background-color: #307672;
   width: 100%;
   font-family: "Courier New", Times, serif;
   font-weight: lighter;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  background-color: #A40A3C;
+  background-color: #144D53;
   width: 100%;
   font-family: "Courier New", Times, serif;
   font-weight: lighter;
@@ -32,12 +32,32 @@ h2 {
 
 }
 
+h3 {
+  background-color:#76B39D;
+  width: 100%;
+  font-family: "Courier New", Times, serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+p {
+font-family: "Courier New", Times, serif;
+    color: #F9A828;
+
+
+}
+
 input {
 font-family: "Courier New", Times, serif;
 }
 
+
 button {
-background-color: lightpink;
 opacity: 0.7;
 border: none;
 font-family: "Courier New", Times, serif;
@@ -73,5 +93,13 @@ margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   font-size: 80px;
+
+}
+
+nav {
+
+font-family: "Courier New", Times, serif;
+font-size: 20px;
+
 
 }
