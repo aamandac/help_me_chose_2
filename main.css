@@ -32,100 +32,6 @@ h2 {
 
 }
 
-
-
-p {
-font-family: "Courier New", Times, serif;
-    color: #F9A828;
-
-
-}
-
-input {
-font-family: "Courier New", Times, serif;
-}
-
-
-button {
-opacity: 0.7;
-border: none;
-font-family: "Courier New", Times, serif;
-font-size: 13px;
-padding: 10px 20px;
-
-}
-
-.inputSection {
-margin: 50px 0px 80px 0px;
-width: 400px;
-}
-
-.inputs {
-width: inherit;
-display: flex;
-flex-direction: column;
-}
-
-input {
-  margin-top: 10px;
-}
-
-.addOption {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.resultSection {
-  height: 300px;
-  font-family: "Courier New", Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-
-}
-
-nav {
-
-font-family: "Courier New", Times, serif;
-font-size: 20px;
-
-
-}
-body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 150px;
-
-background-color: #1A3C40;
-}
-
-h1 {
-  background-color: #307672;
-  width: 100%;
-  font-family: "Courier New", Times, serif;
-  font-weight: lighter;
-  font-size: 40px;
-    text-align: center;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  background-color: #144D53;
-  width: 100%;
-  font-family: "Courier New", Times, serif;
-  font-weight: lighter;
-  font-size: 20px;
-  letter-spacing: 2.5px;
-  margin-bottom: -5px;
-  margin-top: 5px;
-  text-align: center;
-
-}
-
 h3 {
   background-color:#76B39D;
   width: 100%;
@@ -137,13 +43,16 @@ h3 {
   margin-top: 5px;
   text-align: center;
 
+
 }
 
+
 p {
-font-family: "Courier New", Times, serif;
+    text-decoration: none;
     color: #F9A828;
-
-
+    font-family: "Courier New", Times, serif;
+    font-weight: lighter;
+  
 }
 
 input {
@@ -187,118 +96,5 @@ margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   font-size: 80px;
-
-}
-
-nav {
-
-font-family: "Courier New", Times, serif;
-font-size: 20px;
-
-
-}
-body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 150px;
-
-background-color: #1A3C40;
-}
-
-h1 {
-  background-color: #307672;
-  width: 100%;
-  font-family: "Courier New", Times, serif;
-  font-weight: lighter;
-  font-size: 40px;
-    text-align: center;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  background-color: #144D53;
-  width: 100%;
-  font-family: "Courier New", Times, serif;
-  font-weight: lighter;
-  font-size: 20px;
-  letter-spacing: 2.5px;
-  margin-bottom: -5px;
-  margin-top: 5px;
-  text-align: center;
-
-}
-
-h3 {
-  background-color:#76B39D;
-  width: 100%;
-  font-family: "Courier New", Times, serif;
-  font-weight: lighter;
-  font-size: 20px;
-  letter-spacing: 2.5px;
-  margin-bottom: -5px;
-  margin-top: 5px;
-  text-align: center;
-
-}
-
-p {
-font-family: "Courier New", Times, serif;
-    color: #F9A828;
-
-
-}
-
-input {
-font-family: "Courier New", Times, serif;
-}
-
-
-button {
-opacity: 0.7;
-border: none;
-font-family: "Courier New", Times, serif;
-font-size: 13px;
-padding: 10px 20px;
-
-}
-
-.inputSection {
-margin: 50px 0px 80px 0px;
-width: 400px;
-}
-
-.inputs {
-width: inherit;
-display: flex;
-flex-direction: column;
-}
-
-input {
-  margin-top: 10px;
-}
-
-.addOption {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.resultSection {
-  height: 300px;
-  font-family: "Courier New", Times, serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-
-}
-
-nav {
-
-font-family: "Courier New", Times, serif;
-font-size: 20px;
-
 
 }
